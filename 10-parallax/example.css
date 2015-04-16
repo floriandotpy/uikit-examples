@@ -1,0 +1,17 @@
+.stage {
+    height: 600px;
+    background-image: url(https://unsplash.it/1400/600);
+    background-size: cover;
+    background-position: center;
+}
+.stage h1 {
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 900;
+    color: white;
+}
+.stage h2 {
+    font-weight: lighter;
+    font-size: 32px;
+    color: rgba(255,255,255,0.65);
+}
