@@ -2,6 +2,8 @@
 
 This repository includes examples from the screencast [The UIkit frontend framework \(youtube\)](https://www.youtube.com/playlist?list=PL2SfpsC7cy0gv9O7nNKyQZBrFjhi3LH-V).
 
+Want to support the screencast? Feel free to [donate via paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEKXF39FSHUFJ). Cheers. :)
+
 # License of the code examples 
 
 *The license applies to the code examples but doesn't extend to the included 3rd party libraries. Check the respective licenses of the included libraries.*
