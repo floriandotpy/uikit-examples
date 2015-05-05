@@ -1,17 +1,35 @@
-.stage {
-    height: 600px;
+.header {
     background-image: url(https://unsplash.it/1400/600);
     background-size: cover;
-    background-position: center;
 }
-.stage h1 {
+.header-inner {
+    /* limit width*/
+    max-width: 50%;
+
+    /* center */
+    margin: 0 auto;
+
+    /* space out parent */
+    padding: 300px 10px 50px;
+}
+.header h1 {
     font-size: 60px;
     letter-spacing: -2px;
     font-weight: 900;
     color: white;
 }
-.stage h2 {
+.header h2 {
     font-weight: lighter;
     font-size: 32px;
     color: rgba(255,255,255,0.65);
+}
+
+@media screen and (max-width: 480px) {
+
+    /* realign headline on smaller devices */
+    .header-inner {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 100px 10px;
+    }
 }
