@@ -1,7 +1,8 @@
 .header {
-    background-image: url(https://unsplash.it/1400/600);
+    background-image: url(../assets/mist.jpg);
     background-size: cover;
 }
+
 .header-inner {
     /* limit width*/
     max-width: 50%;
@@ -12,6 +13,8 @@
     /* space out parent */
     padding: 300px 10px 50px;
 }
+
+/* typography */
 .header h1 {
     font-size: 60px;
     letter-spacing: -2px;

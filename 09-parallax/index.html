@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>UIkit parallax example</title>
+
+    <link rel="stylesheet" href="../uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="example.css">
+
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../uikit/js/uikit.min.js"></script>
+    <script src="../uikit/js/components/parallax.min.js"></script>
+
+</head>
+<body>
+    <header class="header" data-uk-parallax="{bg: 100}">
+
+        <div class="header-inner" data-uk-parallax="{opacity:0, viewport: 0.7, y: 100}">
+            <h1>A World covered in mist</h1>
+            <h2>Some awesome subtitle to go along</h2>
+        </div>
+
+    </header>
+
+    <!-- making sure we can scroll -->
+    <div style="height:200vh">
+
+        <!--
+        Option            Description
+
+        x                 Animate translateX in pixels.
+        xp                Animate translateX in percent.
+        y                 Animate translateY in pixels.
+        yp                Animate translateY in percent.
+        bg                Animate a background image.
+        bgp               Animate a background image in percent.
+        rotate            Animate rotation clockwise in degree.
+        scale             Animate scaling.
+        color             Animate color (needs start and stop value).
+        background-color  Animate background-color (needs start and stop value).
+        border-color      Animate border color (needs start and stop value).
+        opacity           Animate the opacity.
+
+        viewport          Animation range depending on viewport
+        target            Reference element for animation duration
+        velocity          Animation velocity
+        -->
+    </div>
+</body>
+</html>
